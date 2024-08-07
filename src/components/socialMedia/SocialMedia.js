@@ -92,7 +92,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
+      {/* {socialMediaLinks.medium ? (
         <a
           href={socialMediaLinks.medium}
           className="icon-button medium"
@@ -102,7 +102,7 @@ export default function socialMedia() {
           <i className="fab fa-medium"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.stackoverflow ? (
         <a
