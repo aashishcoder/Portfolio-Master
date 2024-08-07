@@ -35,7 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/aashishcoder",
   linkedin: "https://www.linkedin.com/in/aashishp234/",
   gmail: "aashishpandey234@gmail.com",
-  // gitlab: "https://gitlab.com/",
+  gitlab: "https://gitlab.com/aashishcoder",
   twitter: "https://x.com/aashishpandey24",
   //medium: " ",
   //stackoverflow: " ",
