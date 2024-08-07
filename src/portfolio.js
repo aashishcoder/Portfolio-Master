@@ -23,10 +23,9 @@ const greeting = {
   username: "Aashish Pandey",
   title: "Hi all, I'm Aashish",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+   "An Aspiring Software Developer 🤖🎓. Passionate about problem-solving and innovation 💡. Skilled in C++, Python, JavaScript, React, and Web Dev. Love collaborating on exciting projects. Check out my work and connect with me! 🚀"),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1s0aSrIqpF-vOhYT7IikWf80TYukyf2q9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/aashishcoder",
   linkedin: "https://www.linkedin.com/in/aashishp234/",
   gmail: "aashishpandey234@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/",
   twitter: "https://x.com/aashishpandey24",
   //medium: " ",
   //stackoverflow: " ",
@@ -49,14 +48,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Innovating AI-driven solutions for real-world problems"
     )
   ],
 
@@ -89,8 +88,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "npm",
@@ -126,23 +125,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Khwaja Moinuddin Chishti Language University",
+      logo: require("./assets/images/kmc.png"),
+      subHeader: "Bachelor of Technology in Computer Science Engineering (AI & ML)",
+      duration: "October 2020 - June 2024",
+      desc: "CGPA : 7.68 ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Pursued B.Tech CSE with Specialization in (Artificial Intelligence and Machine Learning) with an Cumulative Grade Point Of 7.68 up to 8 Semesters. ",
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Assisi Convent Sr.Sec. School Etah",
+      logo: require("./assets/images/acs.png"),
+      subHeader: "Class XII - PCM C++",
+      duration: "April 2018 - April 2019",
+    },
+    {
+      schoolName: "Assisi Convent Sr.Sec. School Etah",
+      logo: require("./assets/images/acs.png"),
+      subHeader: "Class X",
+      duration: "April 2016 - April 2017",
     }
   ]
 };
@@ -174,29 +177,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      role: "Rookie Developer",
+      company: "Timechain Labs",
+      companylogo: require("./assets/images/tc.jpeg"),
+      date: "June 2024 – Present",
+      desc: " Internship ",
+      descBullets:[
+         "Timechain Summer of Code is a 120-day open source program where contributors selected will contribute to BSV projects for Timechain Labs and Partner Organizations.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Subject Matter Expert- Advanced Maths",
+      company: "Chegg India",
+      companylogo: require("./assets/images/chg1.jpg"),
+      date: "April 2023 – June 2024",
+      desc: "Freelance",
+      descBullets: [
+        "Ensured the accuracy and reliability of mathematical models through quality assurance processes, reducing errors by 15%.",
+        "Mentored and guided students in tackling advanced mathematics challenges"
+      ]
     }
   ]
 };
@@ -213,28 +212,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "COMING SOON !",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cs.png"),
+      projectName: " ",
+      projectDesc: " Coming Soon ! ",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: " ..... ",
+          url: " "
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cs.png"),
+      projectName: " ",
+      projectDesc: " Coming Soon ! ",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: " ..... ",
+          url: " "
         }
       ]
     }
@@ -252,53 +251,35 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Project Management: Professional Certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Google Project Management: by Google on Coursera. Certificate earned at June 1, 2024.",
+      image: require("./assets/images/gpm.png"),
+      imageAlt: "Google Project Management Certification",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/JMFH6PSDRNNU"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Verify Certificate",
+          url: "https://coursera.org/verify/professional-cert/JMFH6PSDRNNU"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Meta: Python Programming",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Meta Python programming: by Meta on Coursera. Certificate earned on June 16, 2023.",
+      image: require("./assets/images/meta.webp"),
+      imageAlt: "Certification",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/certificate/AUYLW7KDNFTN"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -312,8 +293,8 @@ const achievementSection = {
 //   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
 //   blogs: [
 //     {
-//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       url: " ",
+//       title: " ",
 //       description:
 //         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
 //     },
@@ -323,38 +304,6 @@ const achievementSection = {
 //       description:
 //         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
 //     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
 //   ],
 //   display: true // Set false to hide this section, defaults to true
 // };
@@ -372,14 +321,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9389148719",
+  email_address: "aashishpandey234@gmail.com",
+  display: true
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "aashishpandey24", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
