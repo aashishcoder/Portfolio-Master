@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
    "An Aspiring Software Developer 🤖🎓. Passionate about problem-solving and innovation 💡. Skilled in C++, Python, JavaScript, React, and Web Dev. Love collaborating on exciting projects. Check out my work and connect with me! 🚀"),
   resumeLink:
-  "https://drive.google.com/file/d/1s0aSrIqpF-vOhYT7IikWf80TYukyf2q9/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1zHtq9jijYKArQS8t9qf9BimWaUgSS0Rv/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
